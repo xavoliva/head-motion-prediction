@@ -1,0 +1,9 @@
+Preprocessing:
+
+- per frame: mean of all sensor values
+- if confidence == 0: 
+	- if 0 for all values of frame: linear between last and next value
+	- if for some values of frame: mean of those values
+
+Model:
+

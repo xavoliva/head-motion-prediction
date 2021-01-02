@@ -1,0 +1,37 @@
+# Don't track content of these folders
+sw/logs/
+sw/tensorboard_logs/
+sw/fov_images/
+sw/keras-seq-2-seq-signal-prediction/
+sw/Video-Classification-CNN-and-LSTM-/
+sw/fov_images_test/
+sw/keras-multi-input/
+sw/fov_images_train_h5/
+sw/fov_images_train_h5_new/
+sw/fov_images_test_h5/
+sw/fov_images_test_h5_new/
+sw/datasetTUM/
+sw/preprocessed_test/
+sw/preprocessed_train/
+*.hdf5
+sw/deep_gaze/data/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+.vscode/
+.idea/
